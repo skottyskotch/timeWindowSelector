@@ -123,6 +123,7 @@ function changeScale(nYear){
 function resetScale(){
 	refreshScale = true;
 	nScale = 0;
+	
 	refreshDisplay();
 	elems = [];
 }
